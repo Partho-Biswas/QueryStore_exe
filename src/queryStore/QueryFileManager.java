@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class QueryFileManager {
 
-    private final String serverUrl = "http://localhost:8080/api/queries";
+    private final String serverUrl = "https://querystore-backend.onrender.com/api/queries";
     private final String username;
     private final HttpClient client;
 

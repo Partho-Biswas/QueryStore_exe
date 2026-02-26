@@ -8,7 +8,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class UserManager {
 
-    private final String serverUrl = "http://localhost:8080/api/auth"; // Change to your Render URL later
+    private final String serverUrl = "https://querystore-backend.onrender.com/api/auth"; // LIVE RENDER URL
     private final HttpClient client;
 
     public UserManager(String storageDirectory) {
