@@ -9,6 +9,7 @@
 *.war
 *.ear
 *.zip
+!QueryStore.zip
 *.tar.gz
 *.rar
 
