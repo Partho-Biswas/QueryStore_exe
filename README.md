@@ -33,20 +33,29 @@ QueryStore is a professional, cloud-synchronized SQL management tool. It allows 
 
 ## 🚀 How to Run the Software
 
-### **Using the Portable EXE (Windows)**
-The easiest way to use QueryStore is via the pre-packaged executable:
-1.  Navigate to the `dist/` folder.
-2.  Ensure the `lib/` folder and `QueryStore.jar` are in the same directory as the `.exe`.
-3.  Double-click **`QueryStore.exe`**.
+### **Using the Portable Software (Easiest)**
+For a quick start without any development tools:
+1.  Locate the **`QueryStore.zip`** file in the root directory.
+2.  Download and extract the ZIP file to a folder.
+3.  Double-click **`QueryStore.exe`** to launch the application.
+4.  *(Note: Requires Java 17 or higher installed on your system).*
 
 ### **Running from Source**
 If you want to run the project for development:
 1.  **Backend:**
     *   Navigate to `/server`.
-    *   Run `.un_backend_locally.bat` (Ensure your Environment Variables are set).
+    *   Run `.\run_backend_locally.bat` (Ensure your Environment Variables are set).
 2.  **Frontend:**
     *   Navigate to the root directory.
     *   Run: `java -cp "lib/*;build/classes" querystore.QueryStore`
+
+---
+
+## 📂 Project Structure
+*   **QueryStore.zip**: Ready-to-use portable package (EXE + Libraries).
+*   **src/**: Desktop application source code.
+*   **server/**: Spring Boot backend source code.
+*   **lib/**: External libraries.
 
 ---
 
