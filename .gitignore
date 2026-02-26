@@ -49,3 +49,4 @@ Desktop.ini
 errors.txt
 users.properties
 queries/
+server/run_backend_locally.bat
